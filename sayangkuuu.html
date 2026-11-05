@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Kesayanganku ❤️</title>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff758c, #ffb199);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  background: rgba(255,255,255,0.2);
+  padding: 30px 22px;
+  border-radius: 25px;
+  width: 85%;
+  max-width: 380px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 27px;
+}
+
+.heart {
+  font-size: 55px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  50% { transform: scale(1.3); }
+}
+
+p {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+button {
+  background: #ff3366;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #e6004c;
+}
+
+/* SURAT CINTA */
+.envelope {
+  margin: 25px auto;
+  cursor: pointer;
+  font-size: 75px;
+  transition: 0.4s;
+  animation: goyang 2s infinite;
+}
+
+.envelope:hover {
+  transform: scale(1.2);
+}
+
+@keyframes goyang {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+}
+
+.surat {
+  background: #fff0f5;
+  color: #d6336c;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  text-align: left;
+  line-height: 1.8;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  animation: muncul 1s ease;
+}
+
+.surat h2 {
+  text-align: center;
+  color: #ff3366;
+}
+
+.surat p {
+  font-size: 15px;
+}
+
+@keyframes muncul {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tutup {
+  display: block;
+  margin: 15px auto 0;
+  background: #ff3366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <div class="heart">🤍</div>
+
+  <h1>Hai Sayangku!</h1>
+
+  <h3>Kamu nda sendirian, ada aku di sini 🤍</h3>
+
+  <p>
+    Sayang, aku tahu mungkin sampai sekarang masih ada rasa takut dalam diri kamu. 
+    Mungkin kamu masih sering kepikiran tentang banyak hal, masih takut kalau suatu saat aku berubah,
+    masih takut kalau aku mengecewakan kamu, atau mungkin kamu masih belum bisa percaya sepenuhnya sama aku.
+    <br><br>
+
+    Tapi aku mau kamu tahu satu hal, aku di sini bukan cuma untuk sementara. 
+    Aku benar-benar ingin menjalani hubungan ini sama kamu, 
+    bukan sekadar datang untuk membuat kamu nyaman lalu pergi begitu saja.
+    <br><br>
+
+    Aku nggak akan memaksa kamu untuk langsung percaya sama aku, 
+    karena aku tahu kepercayaan itu nggak bisa dibangun cuma lewat kata-kata. 
+    Aku mau membuktikannya lewat sikap, perhatian, kejujuran, dan bagaimana aku memperlakukan kamu setiap harinya.
+    <br><br>
+
+    Kalau terkadang pikiran kamu terlalu jauh, tolong jangan memilih untuk memendam semuanya sendirian ya.
+    Cerita sama aku. Kalau ada sikapku yang bikin kamu ragu, bilang sama aku.
+    Aku lebih suka kita membicarakan semuanya daripada kamu harus berjuang sendirian dengan pikiranmu sendiri
+    <br><br>
+
+    Aku sadar mungkin aku belum sempurna dan mungkin masih ada sikapku yang tanpa sengaja bikin kamu kecewa.
+    Tapi percayalah, aku mau belajar menjadi lebih baik, bukan karena terpaksa, melainkan karena
+    aku nggak mau kehilangan sesuatu yang benar-benar berharga buat aku, yaitu kamu.
+    <br><br>
+
+    Aku nggak bisa menjanjikan bahwa kita nggak akan pernah punya masalah, 
+    tapi aku bisa berusaha untuk nggak menjadikan masalah sebagai alasan untuk menyerah sama hubungan ini.
+    <br><br>
+
+    Jadi, pelan-pelan aja ya, sayang. Nggak perlu buru-buru percaya sepenuhnya.
+    Biar waktu dan sikapku yang membuktikan semuanya.
+    <br><br>
+
+    Aku nggak minta kamu menghilangkan semua ketakutanmu hari ini.
+    Aku cuma berharap kamu mau memberiku kesempatan untuk terus menunjukkan bahwa kamu nggak salah memilih aku.
+    <br><br>
+
+
+    <b>Aku sayang kamu, dan aku masih ingin kamu menjadi orang yang aku perjuangkan🤍</b>
+  </p>
+
+  
+<!-- AMPL0P CINTA -->
+<div class="envelope" onclick="bukaSurat()">
+  💌
+</div>
+
+<p><b>Klik amplopnya ya, sayang 🤍</b></p>
+
+<!-- ISI SURAT -->
+<div class="surat" id="suratCinta" style="display:none;">
+
+  <h2>🤍 Untuk Cintaku 🤍</h2>
+
+  <p>
+    Hai sayangku...
+    <br><br>
+
+    Ada sesuatu yang ingin aku sampaikan
+    lewat surat kecil ini.
+    <br><br>
+
+    Terima kasih sudah hadir di hidupku.
+    Terima kasih sudah bertahan sampai hari ini.
+    Aku tahu perjalanan kamu tidak selalu mudah,
+    tapi aku ingin kamu tahu bahwa kamu tidak sendirian.
+    <br><br>
+
+    Kalau dunia terasa berat, jangan lupa
+    kalau ada aku yang selalu mendukungmu.
+    Kalau kamu lelah, istirahatlah.
+    Kalau kamu sedih, ceritalah kepadaku.
+    <br><br>
+
+    Aku tidak menjanjikan hubungan yang selalu sempurna,
+    tapi aku akan berusaha menjadi seseorang
+    yang selalu membuatmu merasa dicintai.
+    <br><br>
+
+    Tetap jadi dirimu sendiri ya, sayang.
+    Jangan pernah merasa kurang berharga.
+    Karena bagiku, kamu adalah seseorang
+    yang sangat istimewa.
+    <br><br>
+
+    <b>
+      Aku sayang kamu, lebih dari yang bisa
+      aku ungkapkan lewat kata-kata. ❤️
+    </b>
+  </p>
+
+  <h3 style="text-align:center;">
+    Forever Yours 💕
+  </h3>
+
+  <button class="tutup" onclick="tutupSurat()">
+    Tutup Surat ❤️
+  </button>
+
+</div>
+
+
+  <button onclick="kirimWA()">
+    💌 Kirim Balasan ke Aku
+  </button>
+
+  <p>With love, 🤍</p>
+</div>
+
+<script>
+function kirimWA() {
+  // GANTI DENGAN NOMOR WHATSAPP KAMU
+  let nomor = "6287790895248";
+
+  let pesan = "ganti teks.....";
+
+  let url = "https://wa.me/" + nomor +
+  "?text=" + encodeURIComponent(pesan);
+
+  window.open(url, "_blank");
+}
+
+function bukaSurat() {
+  document.getElementById("suratCinta")
+    .style.display = "block";
+
+  document.getElementById("suratCinta")
+    .scrollIntoView({ behavior: "smooth" });
+}
+
+function tutupSurat() {
+  document.getElementById("suratCinta")
+    .style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
